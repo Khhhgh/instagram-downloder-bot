@@ -7,7 +7,7 @@ import os
 
 load_dotenv()
 
-bot = Bot(os.getenv("7610698647:AAGc0vKL1iYTchSGJowB7FzlLWhwrPTg3V4"))
+bot = "7610698647:AAGc0vKL1iYTchSGJowB7FzlLWhwrPTg3V4"
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
